@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
 
-RUN apt update && apt install anisble
+RUN apt-get update && apt-get install anisble
 
 ENTRYPOINT [ 'ansible-playbook' ]
